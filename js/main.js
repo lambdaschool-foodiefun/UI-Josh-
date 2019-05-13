@@ -1,7 +1,7 @@
 class Tab {
     constructor(tab){
         this.tab = tab;
-        this.
+        this.all = document.querySelector(`.all[data-tab= '${this.tab.detaset.tab}]`);
     }
 }
 
