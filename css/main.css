@@ -48,3 +48,13 @@
   .header .login {
 	  padding-right: 30px;
   }
+  .all {
+	margin-top:20px;
+	display: flex;
+  }
+  .tab{
+	padding: 5px 10px;
+	background: gold;
+	border: 1px solid black;
+	cursor: pointer;
+}
