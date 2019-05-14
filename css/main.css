@@ -60,3 +60,19 @@
 	.tabs {
 		width: 132px;
 	}
+
+#outer-container{
+	display: table;
+	width:97%;
+	height: 100%;
+}
+#sidebar {
+	display: table-cell;
+	width: 20%;
+	vertical-align: top;
+}
+#content{
+	display: table-cell;
+	width:80%;
+	vertical-align: top;
+}
