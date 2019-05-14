@@ -77,10 +77,8 @@
 	vertical-align: top;
 }
 .section{
-	font-family: 'Times New Roman', Times, serif;
 	font-size: 20px;
 	font-weight: bold;
-	display: inline;
 }
 .type {
 	border-radius: 100px;
