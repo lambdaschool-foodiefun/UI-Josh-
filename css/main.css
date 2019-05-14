@@ -48,14 +48,13 @@
   .header .login {
 	  padding-right: 30px;
   }
-  .all {
-	font-size: 40px;
+  . {
 	margin-top:20px;
 	display: flex;
   }
   .tab{
 	padding: 5px 10px;
-	background: gold;
-	border: 1px solid black;
+	background: rgb(105, 219, 204);
+	border: 1px dotted black;
 	cursor: pointer;
 }
