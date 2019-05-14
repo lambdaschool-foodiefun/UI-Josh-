@@ -47,11 +47,10 @@
   }
   .header .login {
 	  padding-right: 30px;
-  }
-  . {
-	margin-top:20px;
-	display: flex;
-  }
+	}
+	.type{
+		font-size:17px;
+	}
   .tab{
 	padding: 5px 10px;
 	background: rgb(105, 219, 204);
