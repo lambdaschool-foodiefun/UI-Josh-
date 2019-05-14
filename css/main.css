@@ -56,4 +56,7 @@
 	background: rgb(105, 219, 204);
 	border: 1px dotted black;
 	cursor: pointer;
-}
+	}
+	.tabs {
+		width: 132px;
+	}
