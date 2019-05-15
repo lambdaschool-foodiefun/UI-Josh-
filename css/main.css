@@ -68,7 +68,7 @@
 	}
 	@media (max-width:500px){
 		.header span {
-			font-size: 14px;
+			font-size: 15px;
 		}
 	}
   .header .date {
@@ -78,11 +78,21 @@
   .header .login {
 	  padding-right: 30px;
 	}
+	@media (max-width:500px){
+		.header .login {
+			padding-right: 20px;
+		}
+	}
 	.type{
 		font-size:17px;
 	}
+	@media (max-width:500px){
+		.type {
+			font-size: 15px;
+		}
+	}
   .tab{
-	padding: 5px 10px;
+	padding: initial;
 	background: rgb(216, 112, 74);
 	border: 1px dotted black;
 	cursor: pointer;
