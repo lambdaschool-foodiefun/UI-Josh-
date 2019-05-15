@@ -145,4 +145,8 @@ h3 {
 	padding-right: 1%;
 	padding-left: 0;
 }
-@media 
+@media (max-width: 500px){
+	.inverse-content .img-content{
+		order: 2;
+	}
+}
