@@ -21,10 +21,12 @@
 			justify-content: center;
 			align-items: center;
 			background-color: midnightblue;
-			color:rgb(255, 255, 255)
+			color:rgb(255, 255, 255);
+			font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 		}
 	}
   .header {
+	text-decoration: underline;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -35,7 +37,14 @@
 	height: 120px;
 	margin-top: 44px;
 	padding-bottom: 15px;
-  }
+	}
+	@media (max-width:500px){
+		.header {
+		background-color: rgb(216, 112, 74);
+		width: 95%;
+		height: 100px;
+		}
+	}
   .header h1 {
 	font-size: 60px;
 	font-family: Didot, serif;
@@ -43,13 +52,25 @@
 	flex: 8;
 	text-align: center;
 	color: #000;
-  }
+	}
+	@media (max-width: 500px){
+		.header h1 {
+			font-size: 32px;
+			padding-top: 20px;
+			font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+		}
+	}
   .header span {
 	justify-content: left;
 	font-size: 20px;
 	font-weight: bold;
 	letter-spacing: 1px;
-  }
+	}
+	@media (max-width:500px){
+		.header span {
+			font-size: 14px;
+		}
+	}
   .header .date {
 	margin-left: 25px;
 	flex: 1;
