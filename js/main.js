@@ -1,3 +1,3 @@
 //tab-navaigator = tabs
-//link = all
+//link = tab-links
 //content = tab
