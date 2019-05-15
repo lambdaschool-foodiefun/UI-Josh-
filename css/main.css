@@ -106,7 +106,7 @@ h3 {
 }
 @media (max-width: 500px) {
 .content-section .text-content {
-    width: 100%;
+		width: 97%;
     padding: 0;
   }
 }
@@ -116,7 +116,7 @@ h3 {
 }
 @media (max-width: 500px) {
 .content-section .img-content {
-    width: 100%;
+    width: 97%;
     padding: 0;
   }
 }
@@ -125,12 +125,11 @@ h3 {
 }
 @media (max-width: 500px) {
 .content-section .img-content img {
-    width: 100%;
+    width: 97%;
   }
 }
 .inverse-content{
 	padding-bottom: 30px;
-	border-bottom: 2px dashed midnightblue;
 }
 .inverse-content .text-content {
 	padding-left: 1%;
