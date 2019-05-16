@@ -78,7 +78,9 @@
 	flex: 1;
   }
   .header .login {
-	  padding-right: 30px;
+		padding-right: 30px;
+		text-decoration: none;
+		color: green;
 	}
 	@media (max-width:500px){
 		.header .login {
@@ -87,6 +89,7 @@
 	}
 	.type{
 		font-size:17px;
+		font-weight: bold;
 	}
 	@media (max-width:500px){
 		.type {
@@ -121,6 +124,10 @@
 .section{
 	font-size: 20px;
 	font-weight: bold;
+	text-decoration: none;
+	color: red;
+	padding: 20px 20px 20px 0;
+	text-align: left;
 }
 h2 {
 	font-size: 40px;
@@ -138,7 +145,10 @@ h3 {
 	font-size: 25px;
 	text-align: center;
 }
-
+a {
+	text-decoration: none;
+	color: red;
+}
 .content-section{
 	margin: 30px 0;
 	display: flex;
