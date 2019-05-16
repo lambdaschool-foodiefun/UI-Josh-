@@ -3,4 +3,4 @@
 //content = tab
 
 
-const 
+const links = document.querySelectorAll('.link')
