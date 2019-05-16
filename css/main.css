@@ -101,6 +101,10 @@
 	background: rgb(216, 112, 74);
 	border: 1px dotted black;
 	cursor: progress;
+	display: none;
+	}
+	.change {
+		display: block;
 	}
 	.tabs {
 		width: 60%;
