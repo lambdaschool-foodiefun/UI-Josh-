@@ -100,7 +100,7 @@
 	padding: initial;
 	background: rgb(216, 112, 74);
 	border: 1px dotted black;
-	cursor: pointer;
+	cursor: progress;
 	}
 	.tabs {
 		width: 60%;
