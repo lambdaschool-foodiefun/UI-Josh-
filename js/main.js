@@ -16,12 +16,15 @@ class Link{
 
 class Tab {
     constructor(tab){
-        this.
+        this.contentTab = tab;
+    }
+    toggleTab(){
+        this.contentTab.classList.toggle('change');
     }
 }
+
 const links = document.querySelectorAll('.link')
 
 links.forEach(link =>{
-    new link(link);
-    this.tab =
+    new Link(link);
 })
