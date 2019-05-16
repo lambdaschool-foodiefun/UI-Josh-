@@ -109,6 +109,7 @@
 	}
 	.tabs {
 		width: 60%;
+		color: rgb(123, 206, 225)
 	}
 
 #outer-container{
@@ -130,25 +131,35 @@
 	font-size: 20px;
 	font-weight: bold;
 	text-decoration: none;
-	color: red;
+	color: rgb(123, 206, 225);
 	padding: 20px 20px 20px 0;
 	text-align: left;
+}
+div a {
+	color: rgb(123, 206, 225);
 }
 h2 {
 	font-size: 40px;
 	font-family: Didot, sans-serif;
-	font-weight: bold;
+	font-weight: 900;
 	text-align: center;
-	color:#000;
+	color:rgb(123, 206, 225);
 }
 @media (max-width: 500px){
 	h2 {
-		color: rgb(223, 164, 34)
+		color: rgb(223, 164, 34);
+		text-shadow: 
+			-1px -1px 0 #000,
+			1px -1px 0 #000,
+			-1px 1px 0 #000,
+			1px 1px 0 #000,
 	}
 }
 h3 {
 	font-size: 25px;
 	text-align: center;
+	color: rgb(235, 238, 239);
+	font-weight: 100px;
 }
 a {
 	text-decoration: none;
@@ -219,5 +230,10 @@ img {
 	}
 }
 .link{
-	cursor: grab;
+	cursor: progress;
+}
+p {
+	color: rgb(255, 255, 255);
+	border: #000;
+	font-size: 20px;  
 }
